@@ -15,4 +15,4 @@ services:
       - key: NODE_ENV
         value: production
       - key: DATABASE_FILENAME
-        value: /db/data.db
+        value: db/data.db
