@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "components_variants_variants",
+  "info": {
+    "name": "variants",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "sale_price": {
+      "type": "decimal"
+    },
+    "color": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "Order"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "total": {
+      "type": "decimal"
+    },
+    "products": {
+      "collection": "product",
+      "via": "orders",
+      "dominant": true
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "order"
+    },
+    "shipping": {
+      "model": "shipping"
+    },
+    "payment": {
+      "model": "payment"
+    }
+  }
+}
