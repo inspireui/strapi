@@ -15,7 +15,7 @@ See the guide at https://render.com/docs/deploy-strapi for more information.
 
 ## Install on Localhost
 
-Require install [NodeJS +12x](https://nodejs.org/en) and [Yarn](https://yarnpkg.com/)
+Require install [NodeJS 12.x](https://nodejs.org/en) and [Yarn](https://yarnpkg.com/)
 Run with Development mode
 ```
 yarn install
