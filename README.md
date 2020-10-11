@@ -31,5 +31,7 @@ Yarn build
 Fork this repo and click the button below to deploy.
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
-
 See the guide at https://render.com/docs/deploy-strapi for more information.
+
+
+[![Deploy to Digital Ocean App Platform](https://www.phusionpassenger.com/docs/images/digital_ocean.svg)](https://cloud.digitalocean.com/apps/new)

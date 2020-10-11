@@ -13,8 +13,8 @@
       "type": "decimal"
     },
     "products": {
-      "collection": "product",
       "via": "orders",
+      "collection": "product",
       "dominant": true
     },
     "user": {

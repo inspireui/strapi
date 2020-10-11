@@ -3,19 +3,21 @@
   "connection": "default",
   "collectionName": "products",
   "info": {
-    "name": "product"
+    "name": "product",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "title": {
       "type": "string"
     },
     "product_categories": {
-      "via": "products",
       "collection": "product-categories",
+      "via": "products",
       "dominant": true
     },
     "images": {
@@ -28,10 +30,6 @@
       "type": "boolean",
       "default": false
     },
-    "is_hot": {
-      "type": "boolean",
-      "default": false
-    },
     "price": {
       "type": "decimal"
     },
@@ -41,20 +39,12 @@
     "vendor": {
       "type": "string"
     },
-    "brands": {
-      "collection": "brand",
-      "via": "products",
-      "dominant": true
-    },
     "review": {
       "type": "integer"
     },
     "is_out_of_stock": {
       "type": "boolean",
       "default": false
-    },
-    "depot": {
-      "type": "integer"
     },
     "inventory": {
       "type": "integer"
@@ -78,13 +68,20 @@
       "plugin": "upload",
       "required": false
     },
-    "collections": {
-      "via": "products",
-      "collection": "collection"
-    },
     "orders": {
-      "via": "products",
-      "collection": "order"
+      "collection": "order",
+      "via": "products"
+    },
+    "video": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

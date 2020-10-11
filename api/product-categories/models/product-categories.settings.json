@@ -20,8 +20,8 @@
       "type": "string"
     },
     "products": {
-      "collection": "product",
-      "via": "product_categories"
+      "via": "product_categories",
+      "collection": "product"
     },
     "feature_image": {
       "model": "file",
