@@ -30,8 +30,8 @@ This is a sample [Strapi](https://strapi.io/) app, configured for deployment to 
 Yarn build
 Fork this repo and click the button below to deploy.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+[![Deploy to Render](https://trello-attachments.s3.amazonaws.com/5f819c1647913f104387c46c/1144x234/fb030c6b95c7c66202286a36f557d256/render.png)](https://render.com/deploy)
 See the guide at https://render.com/docs/deploy-strapi for more information.
 
 
-[![Deploy to Digital Ocean App Platform](https://www.phusionpassenger.com/docs/images/digital_ocean.svg)](https://cloud.digitalocean.com/apps/new)
+[![Deploy to Digital Ocean App Platform](https://trello-attachments.s3.amazonaws.com/5f819c1647913f104387c46c/1144x234/a83b299885114f3082cda11f177258f7/do.png)](https://cloud.digitalocean.com/apps/new)
