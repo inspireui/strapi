@@ -1,6 +1,6 @@
 # Easy Strapi Installing
 
-This strapi repo is customize from the [Strapi repo](https://github.com/strapi/strapi) and compatible with the Fluxstore Strapi mobile app.
+This strapi repo is customize from the [Strapi repo](https://github.com/strapi/strapi) and compatible with the [Fluxstore Strapi Flutter Mobile app](1.envato.market/2P4YM).
 
 ## Easy Deploy Strapi to Hosting with one Click
 
