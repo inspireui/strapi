@@ -35,4 +35,4 @@ Fork this repo and click the button below to deploy.
 See the guide at https://render.com/docs/deploy-strapi for more information.
 
 
-[![Deploy to Digital Ocean App Platform](https://trello-attachments.s3.amazonaws.com/5d29325d2000ef2fad36345f/5f819c1647913f104387c46c/595f972d686e1b422034764be61ecebd/do.svg)](https://cloud.digitalocean.com/apps/new)
+[![Deploy to Digital Ocean App Platform](https://trello-attachments.s3.amazonaws.com/5d29325d2000ef2fad36345f/5f819c1647913f104387c46c/0405aa8c75492358404169ced17c7c52/do.svg)](https://cloud.digitalocean.com/apps/new)
