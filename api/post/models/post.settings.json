@@ -1,19 +1,19 @@
 {
+  "kind": "collectionType",
   "connection": "default",
   "collectionName": "posts",
   "info": {
-    "name": "post"
+    "name": "post",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
-    "name": {
+    "title": {
       "type": "string"
-    },
-    "blog_categories": {
-      "collection": "blog-categories"
     },
     "description": {
       "type": "text"
@@ -24,6 +24,23 @@
     "is_active": {
       "type": "boolean",
       "default": true
+    },
+    "author": {
+      "type": "string"
+    },
+    "imageFeature": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "subTitle": {
+      "type": "string"
     }
   }
 }
