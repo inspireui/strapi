@@ -4,7 +4,9 @@ This strapi repo is customize from the [Strapi repo](https://github.com/strapi/s
 
 ## Easy Deploy Strapi to Hosting with one Click
 
-Fork this Git repository and click the button below to deploy.
+1. Fork this Git repository to your own public/private repo and click the One-Click button below to deploy.
+
+2. Select Hosting Type:
 
 [![Deploy to Render](https://trello-attachments.s3.amazonaws.com/5d29325d2000ef2fad36345f/5f819c1647913f104387c46c/1bc9e2bdc29f61050e75deb4a98c0594/render.svg)](https://render.com/deploy)
 
@@ -12,6 +14,7 @@ See the guide at https://render.com/docs/deploy-strapi for more information.
 
 [![Deploy to Digital Ocean App Platform](https://trello-attachments.s3.amazonaws.com/5d29325d2000ef2fad36345f/5f819c1647913f104387c46c/0405aa8c75492358404169ced17c7c52/do.svg)](https://cloud.digitalocean.com/apps/new)
 
+See the guide at https://try.digitalocean.com/app-platform/ for more information
 
 ## Install on Localhost
 
