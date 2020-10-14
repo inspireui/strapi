@@ -60,6 +60,10 @@
     "order": {
       "via": "user",
       "model": "order"
+    },
+    "posts": {
+      "via": "users_permissions_user",
+      "collection": "post"
     }
   }
 }

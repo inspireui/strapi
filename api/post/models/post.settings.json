@@ -15,9 +15,6 @@
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
-    },
     "content": {
       "type": "richtext"
     },
@@ -25,10 +22,7 @@
       "type": "boolean",
       "default": true
     },
-    "author": {
-      "type": "string"
-    },
-    "imageFeature": {
+    "image_feature": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -41,6 +35,11 @@
     },
     "subTitle": {
       "type": "string"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "posts"
     }
   }
 }
